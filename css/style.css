@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Unlock&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("../img/photo_1.jpg"),linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;}
+
+
+#timeInput {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top: 300px;
+    left: 625px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    transition: ease 4s;
+}
+#timeInput:hover {
+    background: gold;
+}
+
+#startButton {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 350px;
+    left: 625px;
+    background-color: white;
+    color: black;
+    border: 2px solid silver;
+    border-radius: 20px;
+
+}
+
+#pauseButton {
+    position: absolute;
+    top: 350px;
+    left: 860px;
+    background: rgba(0, 0, 0, 0.0);
+    border: none;
+    color: #fff;
+}
+
+#resetButton {
+    position: absolute;
+    top: 350px;
+    left: 950px;
+    background: rgba(0, 0, 0, 0.0);
+    border: none;
+    color: #fff;
+}
+
+#timeDisplay {
+    font-size: 80px; /* Скоригуйте за потреби */
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    color: white;
+}
+
+.button-icon {
+    width: 40px;
+    height: 40px;
+}
