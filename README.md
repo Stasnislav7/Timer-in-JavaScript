@@ -1,16 +1,6 @@
 # Timer Project
 
 A simple countdown timer implemented in JavaScript. This project allows users to set a time, start the countdown, pause it, and reset it.
-## Ключові слова
-
-- таймер
-- JavaScript
-- веб-додаток
-- фронтенд
-- відлік часу
-- програмування
-- навчання
-- продуктивність
 
 ## Features
 
